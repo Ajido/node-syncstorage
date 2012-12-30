@@ -18,7 +18,7 @@ console.log(store.get('key')); // value
 console.log(store.exists('key')); // true
 
 store.each(function(index, key, value) {
-  ...
+  // ...
 });
 
 console.log(store.size()) // 1
