@@ -31,7 +31,7 @@ store.close();
 
 What you should know
 ====================
-* SyncStore is depending on leveldb. leveldb is not multi-process safe.
+* SyncStore is dependent on leveldb. It is not multi-process safe.
 * Don't use this for regular server code. It will ruin the responsiveness of your server.
 
 --------------------------------------------------------
