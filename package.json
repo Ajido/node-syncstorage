@@ -2,12 +2,15 @@
   "name": "syncstore",
   "keywords": [
     "sync",
+    "persistent",
+    "synchronous",
+    "key-value",
     "database",
     "leveldb"
   ],
-  "description": "Synchronous key-value store for node.",
+  "description": "Persistent Synchronous Key-Value Store for Node.js",
   "homepage": "https://github.com/ajido/node-syncstore",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "main": "./build/Release/syncstore",
   "scripts": {
     "preinstall": "make build",

@@ -1,4 +1,5 @@
 build:
+	if [ ! -d .git ]; then git init; fi
 	if [ ! -d node_modules ]; then npm submodule leveldb@0.7.1; fi
 	node-gyp configure build
 
