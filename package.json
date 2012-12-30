@@ -1,0 +1,29 @@
+{
+  "name": "syncstore",
+  "keywords": [
+    "sync",
+    "database",
+    "leveldb"
+  ],
+  "description": "Synchronous key-value store for node.",
+  "homepage": "https://github.com/ajido/node-syncstore",
+  "version": "0.0.1",
+  "main": "./build/Release/syncstore",
+  "scripts": {
+    "preinstall": "make build",
+    "postinstall": "make publish",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajido/node-syncstore.git"
+  },
+  "submodule": {
+    "leveldb": "~0.7.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6.13 <0.9.0"
+  }
+}
+
