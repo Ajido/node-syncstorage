@@ -1,7 +1,7 @@
-node-syncstore
+node-syncstorage
 ==============
-Persistent Synchronous Key-Value Store for Node.js  
-[![Build Status](https://travis-ci.org/ajido/node-syncstore.png?branch=master)](https://travis-ci.org/ajido/node-syncstore)
+Persistent Key-Value Store for Node.js. Not support asynchronous API.  
+[![Build Status](https://travis-ci.org/Ajido/node-syncstorage.svg?branch=master)](https://travis-ci.org/Ajido/node-syncstorage)
 
 ## Installation
 ```bash
